@@ -1,0 +1,34 @@
+{
+  "name": "voby-appbar",
+  "version": "1.0.0",
+  "description": "App bar using Voby",
+  "main": "./dist/Appbar.es.js",
+  "module": "./dist/Appbar.es.js",
+  "types": "./dist/types/Appbar.d.ts",
+  "scripts": {
+    "build": "vite build",
+    "build:watch": "vite build --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sl1241/voby-appbar"
+  },
+  "keywords": [
+    "jasmine",
+    "mock",
+    "voby"
+  ],
+  "author": "Tan Jee Han",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^5.0.0",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.3.3",
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "peerDependencies": {
+    "voby": "workspace:../woby"
+  }
+}
